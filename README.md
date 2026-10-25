@@ -21,9 +21,9 @@ Over the term, we will develop evaluation criteria, syntax and grammar, semantic
 *Proposed by Michael in Module 1. Team agreement is pending Wyatt's review. The roles, schedule, and workflow below are proposals for discussion.*
 
 **Roles**
-- The group leader coordinates the work and submits each deliverable on behalf of the team.
-- Michael is handling the Module 1 setup. The proposed rotation is Wyatt for Module 2, then alternating leaders for subsequent deliverables, subject to team agreement and availability.
-- Both of us contribute to every deliverable, regardless of who is leading.
+- Michael Pelitera and Wyatt Rose serve as co-leaders, sharing responsibility for planning, coordination, and reviewing work.
+- Both members contribute to every deliverable and agree on how to divide tasks.
+- One member submits each deliverable on behalf of the team. We will agree on the submitter for each module and rotate that responsibility.
 
 **Communication**
 - Primary channel: our Canvas group discussion, so the instructor can see our collaboration.
@@ -46,7 +46,7 @@ Over the term, we will develop evaluation criteria, syntax and grammar, semantic
 
 **Resolving disagreements**
 - We discuss it in the related issue or pull request and lay out the trade-offs.
-- We aim for agreement before the internal review deadline. If a decision is needed to meet the submission deadline, the leader records the available input and reasoning for a provisional decision, which the team can revisit.
+- We aim for agreement before the internal review deadline. If a decision is needed to meet the submission deadline, the member submitting that deliverable records the available input and reasoning for a provisional decision, which the team can revisit.
 - Ongoing participation problems go to the instructor.
 
 ## Repository Structure
