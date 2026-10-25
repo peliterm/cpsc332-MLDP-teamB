@@ -12,13 +12,11 @@
 
 ## Project Description
 
-Our proposed initial direction is a small, beginner-friendly language focused on clear input-validation rules and understandable error messages. We will explore how a feature can distinguish missing inputs from valid values, check allowed ranges, and explain validation failures. This direction is Michael's starting proposal and is awaiting Wyatt's input; it is not a finished design or implementation.
+Our initial direction is a small, beginner-friendly language focused on clear input-validation rules and understandable error messages. We will explore how a feature can distinguish missing inputs from valid values, check allowed ranges, and explain validation failures. We will refine the scope and evaluation criteria in Module 2.
 
 Over the term, we will develop evaluation criteria, syntax and grammar, semantics, data types, control flow, memory, and concurrency considerations. This repository will hold our weekly design journal and supporting artifacts for the final document and presentation in Module 8.
 
 ## Team Charter
-
-*Proposed by Michael in Module 1. Team agreement is pending Wyatt's review. The roles, schedule, and workflow below are proposals for discussion.*
 
 **Roles**
 - Michael Pelitera and Wyatt Rose serve as co-leaders, sharing responsibility for planning, coordination, and reviewing work.
