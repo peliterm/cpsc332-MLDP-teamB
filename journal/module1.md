@@ -3,15 +3,15 @@
 **Co-leaders:** Michael Pelitera and Wyatt Rose
 **Team:** CPSC 332 – Team B
 **Updated:** October 25, 2026
-**Status:** Private repository and setup branch created; README and initial journal prepared.
+**Status:** Repository setup complete; README, team charter, and Module 1 journal are on `main`.
 
 ## Team progress
 
 - Created the private repository, `peliterm/cpsc332-MLDP-teamB`, with a README and MIT license.
 - Opened [setup issue #1](https://github.com/peliterm/cpsc332-MLDP-teamB/issues/1) to track the assignment and created the `setup/module1-charter` branch.
-- Added the project overview and proposed team charter to the README on the setup branch.
-- Prepared this journal entry for the setup pull request.
-- The proposed charter covers roles, communication, schedule, workflow, ground rules, and resolving disagreements. See the [README](../README.md#team-charter).
+- Added the project overview and team charter to the README on the setup branch.
+- Merged [setup pull request #2](https://github.com/peliterm/cpsc332-MLDP-teamB/pull/2) into `main` and closed setup issue #1.
+- The team charter covers roles, communication, schedule, workflow, ground rules, and resolving disagreements. See the [README](../README.md#team-charter).
 
 ## Initial project direction
 
