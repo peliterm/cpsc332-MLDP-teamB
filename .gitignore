@@ -1,0 +1,8 @@
+*.class
+ValidationLexer.java
+ValidationParser.java
+ValidationListener.java
+ValidationBaseListener.java
+*.tokens
+*.interp
+.vs/

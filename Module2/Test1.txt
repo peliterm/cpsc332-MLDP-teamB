@@ -1,0 +1,11 @@
+required(vin);
+type(vin, string);
+required(make);
+type(make, string);
+required(model);
+type(model, string);
+type(year, number);
+validate(year, 1900, 2026);
+type(mileage, number);
+validate(mileage, 0, 500000);
+type(isRunning, boolean);
