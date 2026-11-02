@@ -29,6 +29,9 @@ test1: was filled with statements that followed the grammar i set up. so it proc
 Test2: was filled with statements that contained grammar errors. It will process but it gives errors like "data type wasn't supported"
 ANTLR successfully identified all mistakes in test2.
 
+# Parse Tree
+<img width="1645" height="118" alt="image" src="https://github.com/user-attachments/assets/57780b15-435b-487d-afcc-7b505a5873ae" />
+
 # What we learned
 We learned a lot about ANTLR. how i reads the code and actually checks it against the grammar that we set up. Before this I had no experience
 using a lecical analyser (lexer) and it was really interested to learn how	it works breaking everything down to be understood by parser.
