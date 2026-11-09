@@ -1,0 +1,18 @@
+main() {
+    let mileage;
+    let accepted = false;
+
+    while (!accepted) {
+        mileage = input("Enter mileage: ");
+        required(mileage);
+        type(mileage, number);
+        validate(mileage, 0, 500000);
+
+        if (hasErrors()) {
+            reportErrors();
+        } else {
+            accepted = true;
+        }
+    }
+    print("Mileage accepted");
+}
