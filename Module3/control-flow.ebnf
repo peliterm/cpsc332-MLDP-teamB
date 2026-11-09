@@ -1,0 +1,28 @@
+(* Module 3 syntax design. Quoted text is literal. Outside quotes,
+   braces mean zero or more repetitions and brackets mean optional. *)
+
+program       = "main" "(" ")" block ;
+block         = "{" { statement } "}" ;
+statement     = declaration | assignment | validation | loop | selection | report | output ;
+declaration   = "let" identifier [ "=" value ] ";" ;
+assignment    = identifier "=" value ";" ;
+value         = input | identifier | integer | string_literal | boolean ;
+input         = "input" "(" string_literal ")" ;
+boolean       = "true" | "false" ;
+
+loop          = "while" "(" condition ")" block ;
+selection     = "if" "(" condition ")" block [ "else" block ] ;
+condition     = [ "!" ] ( identifier | boolean | "hasErrors" "(" ")" ) ;
+
+(* Retain the three Module 2 command forms and their bound syntax. *)
+validation    = "required" "(" identifier ")" ";"
+              | "type" "(" identifier "," data_type ")" ";"
+              | "validate" "(" identifier "," integer "," integer ")" ";" ;
+data_type     = "number" | "string" | "boolean" ;
+report        = "reportErrors" "(" ")" ";" ;
+output        = "print" "(" value ")" ";" ;
+
+(* Ignore whitespace between tokens. Keywords are reserved. *)
+identifier     = ? ASCII letter or underscore, followed by zero or more ASCII letters, digits or underscores, excluding keywords ? ;
+integer        = ? one or more ASCII digits ? ;
+string_literal = ? text enclosed in double quotes, excluding embedded double quotes and line breaks ? ;
